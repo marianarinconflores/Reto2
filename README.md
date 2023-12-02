@@ -26,3 +26,13 @@ Hemos garantizado que todas nuestras acciones relacionadas con la adquisición, 
 Hemos llevado a cabo una revisión exhaustiva y respetado de manera rigurosa todas las regulaciones y normativas específicas establecidas por el proyecto presentado. Este enfoque garantiza que nuestra solución cumple con cada una de las reglas y requisitos delineados por el desafío. Al adherirnos estrictamente a estas normativas, buscamos no solo alcanzar los objetivos del proyecto, sino también demostrar nuestro compromiso con la integridad y la legalidad en todas las etapas del desarrollo.
 
 Este documento refleja nuestro compromiso inquebrantable con la integridad legal y ética en cada fase de este proyecto, asegurando la transparencia y la responsabilidad en todas nuestras acciones.
+
+### Contenido del repositorio
+
+ - EchoNet-Dynamic dataset.
+ - Notebook con la solución del reto mediante la metodología de máscaras.
+ - Notebook con la solución del reto mediante la metodología de landmarks.
+ - Modelo U-Net exportado con extensión `.h5`.
+ - Carpeta de imágenes (frames, máscaras, contornos, etc.) utilizadas para el entrenamiento de los modelos.
+ - Carpeta de imágenes con los resultado de la segmentación del modelo.
+ - Notebooks con funciones auxiliares para la solución del reto. 
