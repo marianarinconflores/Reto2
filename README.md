@@ -1,8 +1,8 @@
-# Reto2: Segmentación del Ventrículo Izquierdo del Corazón
+# Challenge 2: Left Ventricle Heart Segmentation
 
 ### TC3007C.502 - Inteligencia artificial avanzada para la ciencia de datos II
 
-### Integrantes:
+### Team Members:
 
 * Alfonso Pineda Cedillo | A01660394
 * Mariana Ivette Rincón Flores | A01654973
@@ -12,27 +12,27 @@
 
 ---
 
-### Descripción del proyecto
-Este proyecto se centra en la segmentación del ventrículo izquierdo del corazón, empleando dos enfoques distintos: el uso de máscaras y la identificación de landmarks. La implementación se realiza mediante el empleo de redes neuronales convolucionales U-NET, las cuales han sido entrenadas con el conjunto de datos "EchoNet-Dynamic". Este conjunto de datos específico alberga videos de ecocardiogramas, proporcionando una base sólida para el entrenamiento de las redes.
+### Project Description
+This project focuses on the segmentation of the left ventricle of the heart, employing two distinct approaches: the use of masks and landmark identification. The implementation leverages convolutional neural networks U-NET, trained on the "EchoNet-Dynamic" dataset. This specific dataset contains echocardiogram videos, providing a robust foundation for network training.
 
-El propósito principal de esta iniciativa es evaluar y comparar la eficacia de los dos métodos de segmentación. Se busca determinar cuál de ellos arroja mejores resultados, con la mira puesta en su aplicación potencial en el ámbito médico. La elección entre el uso de máscaras y la identificación de landmarks se fundamentará en resultados cuantificables y validados a partir del entrenamiento con datos del mundo real, contribuyendo así a la toma de decisiones informadas en futuros desarrollos médicos relacionados con la segmentación del ventrículo izquierdo del corazón.
+The primary purpose of this initiative is to evaluate and compare the effectiveness of the two segmentation methods. We aim to determine which yields superior results, with potential applications in the medical domain. The choice between mask-based segmentation and landmark identification will be informed by quantifiable and validated outcomes derived from real-world data training, contributing to informed decision-making in future medical developments related to left ventricle heart segmentation.
 
-En el transcurso de este proyecto, hemos priorizado el cumplimiento de las leyes, normativas y principios éticos inherentes a la industria y al contexto del desafío. Para asegurar esto, hemos seguido meticulosamente los siguientes aspectos:
+Throughout this project, we have prioritized adherence to industry laws, regulations, and ethical principles inherent to the challenge context. To ensure this, we have meticulously followed the following aspects:
 
-### Cumplimiento Legal
-Hemos garantizado que todas nuestras acciones relacionadas con la adquisición, almacenamiento y procesamiento de datos se lleven a cabo en estricta conformidad con las regulaciones pertinentes. Este proceso asegura un análisis integral de los datos, facilitando la obtención de información y la identificación de patrones significativos. Asimismo, hemos observado y respetado los derechos de autor y propiedad intelectual al utilizar el conjunto de datos "EchoNet-Dynamic" de manera legal y ética. Para mayor transparencia, hemos documentado exhaustivamente las metodologías y enfoques empleados, permitiendo a otros comprender y evaluar nuestras decisiones en este ámbito.
+### Legal Compliance
+We have ensured that all our actions related to data acquisition, storage, and processing are carried out in strict accordance with relevant regulations. This process ensures comprehensive data analysis, facilitating information extraction and the identification of significant patterns. Additionally, we have observed and respected copyright and intellectual property rights by legally and ethically utilizing the "EchoNet-Dynamic" dataset. For greater transparency, we have thoroughly documented the methodologies and approaches used, enabling others to understand and assess our decisions in this domain.
 
-### Normativas del Reto
-Hemos llevado a cabo una revisión exhaustiva y respetado de manera rigurosa todas las regulaciones y normativas específicas establecidas por el proyecto presentado. Este enfoque garantiza que nuestra solución cumple con cada una de las reglas y requisitos delineados por el desafío. Al adherirnos estrictamente a estas normativas, buscamos no solo alcanzar los objetivos del proyecto, sino también demostrar nuestro compromiso con la integridad y la legalidad en todas las etapas del desarrollo.
+### Challenge Regulations
+We have conducted a thorough review and rigorously adhered to all the specific regulations and norms established by the presented project. This approach ensures that our solution complies with each of the rules and requirements outlined by the challenge. By strictly adhering to these regulations, we aim not only to achieve the project's objectives but also to demonstrate our commitment to integrity and legality at every stage of development.
 
-Este documento refleja nuestro compromiso inquebrantable con la integridad legal y ética en cada fase de este proyecto, asegurando la transparencia y la responsabilidad en todas nuestras acciones.
+This document reflects our unwavering commitment to legal and ethical integrity in every phase of this project, ensuring transparency and accountability in all our actions.
 
 ### Contenido del repositorio
 
  - EchoNet-Dynamic dataset.
- - Notebook con la solución del reto mediante la metodología de máscaras.
- - Notebook con la solución del reto mediante la metodología de landmarks.
- - Modelo U-Net exportado con extensión `.h5`.
- - Carpeta de imágenes (frames, máscaras, contornos, etc.) utilizadas para el entrenamiento de los modelos.
- - Carpeta de imágenes con los resultado de la segmentación del modelo.
- - Notebooks con funciones auxiliares para la solución del reto. 
+ - Notebook containing the challenge solution using the mask methodology.
+ - Notebook containing the challenge solution using the landmark methodology.
+ - Exported U-Net model with `.h5` extension.
+ - Image folder (frames, masks, contours, etc.) used for model training.
+ - Image folder showcasing segmentation results from the model.
+ - Notebooks containing auxiliary functions for the challenge solution. 
